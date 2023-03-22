@@ -1,0 +1,31 @@
+{
+  "name": "browserdrop",
+  "version": "1.0.0",
+  "description": "Peer to peer communication app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happycoder0011/Browserdrop.git"
+  },
+  "author": "Sheetal Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happycoder0011/Browserdrop/issues"
+  },
+  "homepage": "https://github.com/happycoder0011/Browserdrop#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "node": "^19.8.1",
+    "sirv": "^2.0.2",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
